@@ -1,16 +1,10 @@
-// array of questions for user
-const questions = [
+//const
+const fs = require("fs");
+const util = require("util");
+const inquirer = require("inquirer");
+const generateReadme = require("./utils/generateReadme")
+const writeFileAsync = util.promisify(fs.writeFile);
 
-];
-
-// function to write README file
-function writeToFile(fileName, data) {
-}
-
-// function to initialize program
-function init() {
-
-}
-
-// function call to initialize program
-init();
+//Prompt the user questions to populate the README.md
+function promptUser() {
+    return inquirer.prompt([
