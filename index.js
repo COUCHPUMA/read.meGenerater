@@ -2,20 +2,20 @@
 const fs = require("fs");
 const util = require("util");
 const inquirer = require("inquirer");
-const generateReadme = require("./utils/generateReadme")
+const generateReadme = require("./utils/generatereadme.js")
 const writeFileAsync = util.promisify(fs.writeFile);
 
 //Prompt the user questions to populate the README.md
 function promptUser() {
     return inquirer.prompt([{
             type: "input",
-            Nname: "projectTitle",
-            message: "What is your Project's Title?",
+            name: "projectTitle",
+            message: "What is the project title?",
         },
         {
             type: "input",
             name: "description",
-            message: "write a brief description of your Project:"
+            message: "Write a brief description of your project: "
         },
         {
             type: "input",
@@ -68,3 +68,19 @@ function promptUser() {
         }
     ]);
 }
+
+
+async function init() {
+    try {
+
+        const answers = await promptUser();
+        const generateContent = generateReadme(answers);
+
+        await writeFileAsync('./dist/README.md', generateContent);
+        console.log('SUCCESS!!!!!!');
+    } catch (err) {
+        console.log(err);
+    }
+}
+
+init();
