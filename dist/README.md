@@ -1,9 +1,9 @@
 
-<h1 align="center">gvsdgffdgds 👋</h1>
+<h1 align="center">README GENERATOR 👋</h1>
   
-![badge](https://img.shields.io/badge/license-Apache-brightgreen)<br />
+![badge](https://img.shields.io/badge/license-Academic-brightgreen)<br />
 ## Description
-🔍 gd
+🔍 A node.js app that creates READ.ME files
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
@@ -13,20 +13,20 @@
 - [Tests](#tests)
 - [Questions](#questions)
 ## Installation
-💾 f
+💾 npm inquirer
 ## Usage
-💻 gfd
+💻 Columbia bootcamp homework assignment
 ## License
-![badge](https://img.shields.io/badge/license-Apache-brightgreen)
+![badge](https://img.shields.io/badge/license-Academic-brightgreen)
 <br />
-This application is covered by the Apache license. 
+This application is covered by the Academic license. 
 ## Contributing
-👪 ggdf
+👪 Richard Katsnelson
 ## Tests
-✏️ gdf
+✏️ no
 ## Questions
-✋ gdf<br />
+✋ email me or contact me on Github<br />
 <br />
-:octocat: Find me on GitHub: [gdf](https://github.com/gdf)<br />
+:octocat: Find me on GitHub: [COUCHPUMA](https://github.com/COUCHPUMA)<br />
 <br />
-✉️ Email me with any questions: g<br /><br />
+✉️ Email me with any questions: Rkatsnelson91@gmail.com<br /><br />
