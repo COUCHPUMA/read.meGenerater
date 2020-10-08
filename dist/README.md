@@ -1,9 +1,9 @@
 
-<h1 align="center">README GENERATOR 👋</h1>
+<h1 align="center">READ.ME generator 👋</h1>
   
 ![badge](https://img.shields.io/badge/license-Academic-brightgreen)<br />
 ## Description
-🔍 A node.js app that creates READ.ME files
+🔍 node.js app that creates READ.ME files
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
@@ -13,9 +13,9 @@
 - [Tests](#tests)
 - [Questions](#questions)
 ## Installation
-💾 npm inquirer
+💾 npm install inquirier
 ## Usage
-💻 Columbia bootcamp homework assignment
+💻 Columbia Bootcamp Homework
 ## License
 ![badge](https://img.shields.io/badge/license-Academic-brightgreen)
 <br />
@@ -25,8 +25,8 @@ This application is covered by the Academic license.
 ## Tests
 ✏️ no
 ## Questions
-✋ email me or contact me on Github<br />
+✋ Email me or contact me on Github<br />
 <br />
 :octocat: Find me on GitHub: [COUCHPUMA](https://github.com/COUCHPUMA)<br />
 <br />
-✉️ Email me with any questions: Rkatsnelson91@gmail.com<br /><br />
+✉️ Email me with any questions: rkatsnelson91@gmail.com<br /><br />
