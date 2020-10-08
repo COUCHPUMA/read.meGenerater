@@ -1,10 +1,17 @@
 <h1 align="center">READ.ME generator </h1>
 
 AS A developer
+
 I WANT a README generator
-SO THAT can quickly create a professional README for a new project
+
+SO THAT can quickly create a professional
+
+README for a new project
 
 A node.js app that creates nice read.me files
+
+Link to sample VIDEO:
+https://drive.google.com/file/d/1Lqftc1ygxPabwVJzHCcvSIAZOeb_oFzH/view
 
 
 <h2 align="center">READ.ME generator 👋</h2>
